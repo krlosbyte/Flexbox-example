@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container{
+    background-color: blue;
+    height: 400px;
+}
+
+.container-div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.parrafo{
+    font-size: 15;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container{
+        background-color: green;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-div{
+        height: 250px;
+        background-color: blueviolet;
+    }
+
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+    .container{
+        background-color: rgb(216, 242, 149);
+    }
+
+}
